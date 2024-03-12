@@ -1,0 +1,49 @@
+* {
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid;
+}
+.box1 {
+    position: absolute;
+    top: 150px;
+    left: 470px;
+    border: 10px solid blue;
+}
+.box2 {
+    position: absolute;
+    left: 690px;
+    top: 150px;
+    border: 10px solid black;
+}
+.box3 {
+    position: absolute;
+    left: 930px;
+    top: 150px;
+    border: 10px solid red;
+}
+
+.box4 {
+    position: absolute;
+    top: 250px;
+    left: 580px;
+    border: 10px solid yellow;
+
+}
+.box5 {
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    border: 10px solid green;
+}
