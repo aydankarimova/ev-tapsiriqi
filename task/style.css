@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: red;
+}
+.container {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    left: 700px;
+   top: 250px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 20px;
+    position: relative;
+   bottom: 89px;
+   left: 650px;
+
+}
+.text {
+    margin-left: 200px;
+   margin-right: 50px;
+   padding-top: 180px;
+   
+}
+button{
+width: 100px;
+height: 30px;
+border-radius: 20px;
+background-color: brown;
+}
